@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+  <div class="question-container" id="question0">    
+    <button class="answer-btn flashy-cool" data-result="1">잘 찾아 오셨어요. 지식재산 관련된 정부 사업을 소개 시켜 드릴께요!!</button>       
+  </div>
+<div class="question-container" id="question00">    
+    <button class="answer-btn flashy-cool" data-result="s1">특허법인 에스제이파트너스의 변리사가 궁금하시다구요??</button>       
+  </div>
+
+  <div class="question-container hidden" id="questions1">       
+    <button class="flashy-cool" onclick="openLink('http://www.sjpip.co.kr/bbs/board.php?bo_table=partners&wr_id=4')">김범준 변리사(Click)</button>
+    <button class="flashy-cool" onclick="openLink('http://www.sjpip.co.kr/bbs/board.php?bo_table=partners&wr_id=13')">송민정 변리사(Click)</button>
+    <button class="flashy-cool" onclick="openLink('http://www.sjpip.co.kr/bbs/board.php?bo_table=partners&wr_id=14')">이창민 변리사(Click)</button>
+    <button class="flashy-cool" onclick="openLink('http://www.sjpip.co.kr/bbs/board.php?bo_table=partners&wr_id=15')">한상은 변리사(Click)</button>
+    <button class="flashy-cool" onclick="openLink('http://www.sjpip.co.kr/bbs/board.php?bo_table=partners&wr_id=16')">이동필 변리사(Click)</button>
+     <button class="answer-btn flashy-cool" data-result="0">정부사업이 궁금해요(Click)</button> 
+  </div>
+
+
+  
+  
+  <div class="question-container hidden" id="question1">    
+    <p>특허 지원 사업과 상표 지원 사업 중 어디에 관심이 있으세요??</p>
+    <button class="answer-btn" data-result="P1">A. 특허 지원 사업</button>
+    <button class="answer-btn" data-result="T1">B. 상표 지원 사업</button>    
+  </div>
+
+  <div class="question-container hidden" id="questionP1">    
+    <p>특허 사업 관련해서, 어떤 니즈가 있으세요?</p>
+    <button class="answer-btn" data-result="P11">A. 특허 출원 비용을 지원받고 싶어요</button>
+    <button class="answer-btn" data-result="P12">B. 경쟁사의 특허를 조사하는 비용을 지원받고 싶어요</button>
+    <button class="answer-btn" data-result="P13">C. IR 을 대비해서, 경쟁사의 특허를 조사하였고, 특허 리스크가 없다는 백데이터(Back Data)를 만드는 사업이 필요해요</button>    
+  </div>
+
+
+
+  <!-- 상표  -->
+  
+   <div class="question-container hidden" id="question3">    
+    <p>상표 관련된 어떤 니즈가 있으세요?</p>
+    <button class="answer-btn" data-result="A">A. 상표 확보자금을 지원받고 싶어요</button>
+    <button class="answer-btn" data-result="B">B. 상표 분쟁에 대한 자금을 지원 받고 싶어</button>    
+  </div>
+
+
+
+ 
+  
+
+  <!-- 다른 질문들도 이와 같은 방식으로 추가하세요. -->
+  <div id="result" class="hidden">
+  <h2>당신의 유형은:</h2>
+  <p id="type-result" class="result-type"></p>
+  </div>
+
+  
+  
+  <script src="script.js"></script> 
+</body>
+
+</html>
