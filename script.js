@@ -2,7 +2,6 @@
 const questions = document.querySelectorAll('.question-container');
 
 
-
 // Add a click event listener to all the answer buttons
 document.querySelectorAll('.answer-btn').forEach(button => {
   button.addEventListener('click', () => {
@@ -17,6 +16,7 @@ document.querySelectorAll('.answer-btn').forEach(button => {
     nextQuestion.classList.remove('hidden');
   });
 });
+
 
 // Add a click event listener to the first answer button
 document.querySelector('#question0 .answer-btn').addEventListener('click', () => {
