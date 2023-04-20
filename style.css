@@ -22,7 +22,7 @@ body {
 
 /* Style the heading and paragraph elements within the question container */
 .question-container h2 {
-  font-size: 20px;
+  font-size: 15px;
   font-weight: bold;
   margin-bottom: 10px;
 }
@@ -65,7 +65,7 @@ body {
   /* Set the font color to black */
   color: #000;
   /* Set the font size to 48 pixels */
-  font-size: 48px;
+  font-size: 24px;
   /* Set the padding to 20 pixels on all sides */
   padding: 20px;
   /* Set the border radius to 10 pixels */
@@ -78,7 +78,113 @@ body {
   transition: transform 0.3s ease-in-out;
 }
 
+.flashy-cool2 {
+  /* Set the background color to a yellow and gold gradient */
+  background-image: linear-gradient(45deg, #b69f5e, #efe18c);
+  /* Set the font color to black */
+  color: #000;
+  /* Set the font size to 48 pixels */
+  font-size: 24px;
+  /* Set the padding to 20 pixels on all sides */
+  padding: 20px;
+  /* Set the border radius to 10 pixels */
+  border-radius: 10px;
+  /* Add margin between the elements */
+  margin: 10px;
+  /* Add a box-shadow for a fancy effect */
+  box-shadow: 0px 0px 20px #000;
+  /* Add a transition effect for when the element is hovered over */
+  transition: transform 0.3s ease-in-out;
+}
+
+
+
 /* Add a hover effect to scale the element up slightly */
 .flashy-cool:hover {
   transform: scale(1.1);
+}
+
+/* 이미지 관련 */
+
+
+.img-1{
+  text-align: center;
+  position: relative;  
+  display: inline-block;
+}
+
+.image-container {
+  max-width: 10%;
+  max-height: 10%;
+  margin: 0 auto;
+  margin-top: 25%;
+}
+
+
+.image-text {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* 사업설명 */
+
+
+.disc {
+background-color: #FFFDD0; /* A light yellow background color */
+font-family: 'Open Sans', sans-serif; /* A calm and modern font */
+font-size: 16px; /* A standard font size */
+line-height: 1.5; /* A comfortable line height for reading */
+color: #333; /* A dark gray text color for contrast */
+margin: 30px 30; /* Add 20 pixels of margin on the top and bottom, and 0 margin on the left and right */
+text-align: left; /* Align the text to the left */
+width: 100%; /* Set the width to 100% */
+max-width: 700px; /* Set the maximum width to 200 pixels */
+outline: 1px solid #333; /* Add a 1 pixel solid outline with a dark gray color */
+box-shadow: 0 0 10px #333; /* Add a 10 pixel shadow around the outline with a dark gray color */
+}
+
+.disc_w {
+  /*font-weight: bold; */
+  text-indent: 20px;
+  font-size: 20px;
+  margin: 30px 30;
+}
+
+
+.floating-bt {
+  position: fixed; /* 고정 위치 */
+  bottom: 20px; /* 화면 하단에서 10픽셀 떨어진 위치 */
+  left: 20px; /* 화면 오른쪽에서 10픽셀 떨어진 위치 */
+  z-index: 9999; /* 다른 요소들보다 위에 표시되도록 z-index 값을 높여줍니다. */
+}
+
+.bt {
+  display: block;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #ddb87e;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.bt:hover {
+  background-color: #cf6333;
+}
+
+.bt-ton1 {
+  font-size: 20px;/* 버튼 1의 스타일 */
+}
+
+.bt-ton2 {
+  font-size: 20px;/* 버튼 2의 스타일 */
 }
