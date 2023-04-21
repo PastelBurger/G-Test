@@ -45,6 +45,7 @@ body {
 
 /* Style the answer buttons on hover */
 .answer-btn:hover {
+  transform: scale(1.1);
   background-color: #ccc;
 }
 
@@ -65,7 +66,7 @@ body {
   /* Set the font color to black */
   color: #000;
   /* Set the font size to 48 pixels */
-  font-size: 24px;
+  font-size: 20px;
   /* Set the padding to 20 pixels on all sides */
   padding: 20px;
   /* Set the border radius to 10 pixels */
@@ -80,13 +81,13 @@ body {
 
 .flashy-cool2 {
   /* Set the background color to a yellow and gold gradient */
-  background-image: linear-gradient(45deg, #b69f5e, #efe18c);
+  background-image: linear-gradient(45deg, #ff6600, #ffdab9);
   /* Set the font color to black */
   color: #000;
   /* Set the font size to 48 pixels */
-  font-size: 24px;
+  font-size: 15px;
   /* Set the padding to 20 pixels on all sides */
-  padding: 20px;
+  padding: 15px;
   /* Set the border radius to 10 pixels */
   border-radius: 10px;
   /* Add margin between the elements */
@@ -95,12 +96,65 @@ body {
   box-shadow: 0px 0px 20px #000;
   /* Add a transition effect for when the element is hovered over */
   transition: transform 0.3s ease-in-out;
+  text-align: left;
+}
+
+.flashy-cool3 {
+  /* Set the background color to a yellow and gold gradient */
+ background-image: linear-gradient(45deg, #ffd700, #ffdab9);
+  /* Set the font color to black */
+  color: #000;
+  /* Set the font size to 48 pixels */
+  font-size: 15px;
+  /* Set the padding to 20 pixels on all sides */
+  padding: 15px;
+  /* Set the border radius to 10 pixels */
+  border-radius: 10px;
+  /* Add margin between the elements */
+  margin: 10px;
+  /* Add a box-shadow for a fancy effect */
+  box-shadow: 0px 0px 20px #000;
+  /* Add a transition effect for when the element is hovered over */
+  transition: transform 0.3s ease-in-out;
+  text-align: left;
+}
+/* 결과 헤드라인 */
+.flashy-cool4 {
+  /* Set the background color to a yellow and gold gradient */
+  background-image: linear-gradient(45deg, #ff6600, #ffdab9);
+  /* Set the font color to black */
+  color: #000;
+  /* Set the font size to 48 pixels */
+  font-size: 15px;
+  /* Set the padding to 20 pixels on all sides */
+  padding: 15px;
+  /* Set the border radius to 10 pixels */
+  border-radius: 10px;
+  /* Add margin between the elements */
+  margin: 10px;
+  /* Add a box-shadow for a fancy effect */
+  box-shadow: 0px 0px 20px #000;
+  /* Add a transition effect for when the element is hovered over */
+  transition: transform 0.3s ease-in-out;
+  text-align: center;
+  font-weight: bold;
+  width: 100%;
+  max-width: 300px;
 }
 
 
 
 /* Add a hover effect to scale the element up slightly */
 .flashy-cool:hover {
+  transform: scale(1.1);
+}
+.flashy-cool2:hover {
+  transform: scale(1.1);
+}
+.flashy-cool3:hover {
+  transform: scale(1.1);
+}
+.flashy-cool4:hover {
   transform: scale(1.1);
 }
 
@@ -137,24 +191,34 @@ body {
 
 
 .disc {
-background-color: #FFFDD0; /* A light yellow background color */
-font-family: 'Open Sans', sans-serif; /* A calm and modern font */
-font-size: 16px; /* A standard font size */
-line-height: 1.5; /* A comfortable line height for reading */
-color: #333; /* A dark gray text color for contrast */
-margin: 30px 30; /* Add 20 pixels of margin on the top and bottom, and 0 margin on the left and right */
-text-align: left; /* Align the text to the left */
-width: 100%; /* Set the width to 100% */
-max-width: 700px; /* Set the maximum width to 200 pixels */
-outline: 1px solid #333; /* Add a 1 pixel solid outline with a dark gray color */
-box-shadow: 0 0 10px #333; /* Add a 10 pixel shadow around the outline with a dark gray color */
+  background-image: linear-gradient(to bottom, #FFD280, #F0C75E); /* Gradient from lighter to darker yellow */
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333; /* Dark gray text color for contrast */
+  padding: 30px;
+  text-align: left;
+  width: 100%;
+  max-width: 700px;
+  border-radius: 15px; /* Rounded corners for a softer look */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light box-shadow for depth */
+  text-shadow: 0.1px 0.1px 0.1px #000;
 }
 
-.disc_w {
-  /*font-weight: bold; */
-  text-indent: 20px;
-  font-size: 20px;
-  margin: 30px 30;
+
+.disc_inner {
+  background-image: linear-gradient(to bottom, #FFD280, #F0C75E); /* Gradient from lighter to darker yellow */
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333; /* Dark gray text color for contrast */
+  padding: 30px;
+  text-align: left;
+  width: 100%;
+  max-width: 630px;
+  border-radius: 15px; /* Rounded corners for a softer look */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Light box-shadow for depth */
+  text-shadow: 0.1px 0.1px 0.1px #000;
 }
 
 
@@ -162,29 +226,38 @@ box-shadow: 0 0 10px #333; /* Add a 10 pixel shadow around the outline with a da
   position: fixed; /* 고정 위치 */
   bottom: 20px; /* 화면 하단에서 10픽셀 떨어진 위치 */
   left: 20px; /* 화면 오른쪽에서 10픽셀 떨어진 위치 */
-  z-index: 9999; /* 다른 요소들보다 위에 표시되도록 z-index 값을 높여줍니다. */
+ 
 }
 
 .bt {
   display: block;
-  margin-bottom: 20px;
-  padding: 20px;
-  background-color: #ddb87e;
-  color: #fff;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-image: linear-gradient(-45deg, #f69f09, #ffffff);
+  color: #000000;
   text-align: center;
   text-decoration: none;
-  border-radius: 4px;
-  transition: background-color 0.3s ease;
+  border-radius: 5px;
+  transition: transform 0.3s ease-in-out;
+  width: 150px;
+  height: 50px;
+  font-size: 13px;
+  font-weight: bold;
+  border-style: none;
+  box-shadow: 0px 0px 5px #ccc;
+    
 }
 
 .bt:hover {
-  background-color: #cf6333;
+  transform: scale(1.1);
 }
 
 .bt-ton1 {
-  font-size: 20px;/* 버튼 1의 스타일 */
+  font-size: 50px;/* 버튼 1의 스타일 */
+ 
 }
 
 .bt-ton2 {
   font-size: 20px;/* 버튼 2의 스타일 */
+ 
 }
