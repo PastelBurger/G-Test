@@ -8,11 +8,8 @@ body {
   font-family: Arial, sans-serif;
   font-size: 16px;
   color: #333;
-}
-
-/* Style the question container */
-.question-container {
-  margin-bottom: 20px;
+  max-width: 630px;
+  margin: 0 auto;
 }
 
 /* Hide all the question containers except the first one */
@@ -20,16 +17,6 @@ body {
   display: none;
 }
 
-/* Style the heading and paragraph elements within the question container */
-.question-container h2 {
-  font-size: 15px;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-.question-container p {
-  margin-bottom: 10px;
-}
 
 /* Style the answer buttons */
 .answer-btn {
@@ -49,37 +36,31 @@ body {
   background-color: #ccc;
 }
 
-.container {
-  /* Set the display property to flex to enable flexbox */
-  display: flex;
-  /* Set the justify-content property to center to center the elements horizontally */
-  justify-content: center;
-  /* Set the align-items property to center to center the elements vertically */
-  align-items: center;
-  /* Set the height of the container to fill the viewport */
-  height: 100vh;
-}
-
 .flashy-cool {
+  display: flex; /* 요소를 플렉스 박스(flex box)로 지정 */
+  justify-content: center; /* 요소를 수평 중앙 정렬 */
   /* Set the background color to a yellow and gold gradient */
-  background-image: linear-gradient(45deg, #ffd700, #ffdab9);
   /* Set the font color to black */
   color: #000;
   /* Set the font size to 48 pixels */
-  font-size: 20px;
+  font-size: 16px;
   /* Set the padding to 20 pixels on all sides */
   padding: 20px;
-  /* Set the border radius to 10 pixels */
-  border-radius: 10px;
-  /* Add margin between the elements */
-  margin: 10px;
+   /* Add margin between the elements */
+  margin: 20px;
   /* Add a box-shadow for a fancy effect */
-  box-shadow: 0px 0px 20px #000;
-  /* Add a transition effect for when the element is hovered over */
+  
   transition: transform 0.3s ease-in-out;
+  text-align: center; /* 텍스트 중앙 정렬 */
+  font-weight: bold; /* 굵은 글씨 적용 */
+  margin-left: 50px;
+   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(to bottom, #FFE680, #FFC14E);
+ 
+
 }
 
-.flashy-cool2 {
+.flashy-cool2 { 
   /* Set the background color to a yellow and gold gradient */
   background-image: linear-gradient(45deg, #ff6600, #ffdab9);
   /* Set the font color to black */
@@ -97,6 +78,7 @@ body {
   /* Add a transition effect for when the element is hovered over */
   transition: transform 0.3s ease-in-out;
   text-align: left;
+  font-weight: bold;
 }
 
 .flashy-cool3 {
@@ -128,6 +110,7 @@ body {
   font-size: 15px;
   /* Set the padding to 20 pixels on all sides */
   padding: 15px;
+  padding: 15px;
   /* Set the border radius to 10 pixels */
   border-radius: 10px;
   /* Add margin between the elements */
@@ -141,6 +124,47 @@ body {
   width: 100%;
   max-width: 300px;
 }
+ /* 시작할때 */
+.flashy-cools {  
+  background-image: linear-gradient(45deg, #ff6600, #ffdab9);
+   color: #000;
+  /* Set the font size to 48 pixels */
+  font-size: 15px;
+  /* Set the padding to 20 pixels on all sides */
+  padding: 15px;
+  /* Set the border radius to 10 pixels */
+  border-radius: 10px;
+  /* Add margin between the elements */
+  margin: 10px;
+  /* Add a box-shadow for a fancy effect */
+  box-shadow: 0px 0px 20px #000;
+  /* Add a transition effect for when the element is hovered over */
+  transition: transform 0.3s ease-in-out;
+  text-align: center;
+  font-weight: bold;
+  width: 100%; 
+}
+
+/* 이전으로 */
+.flashy-coolpre {  
+  background-image: linear-gradient(45deg, #ffd700, #ffdab9);
+   color: #000;
+  /* Set the font size to 48 pixels */
+  font-size: 15px;
+  /* Set the padding to 20 pixels on all sides */
+  padding: 15px;
+  /* Set the border radius to 10 pixels */
+  border-radius: 10px;
+  /* Add margin between the elements */
+  margin: 10px;
+  /* Add a box-shadow for a fancy effect */
+  box-shadow: 0px 0px 20px #000;
+  /* Add a transition effect for when the element is hovered over */
+  transition: transform 0.3s ease-in-out;
+  text-align: center;
+  font-weight: bold;
+  width: 100%;
+  }
 
 
 
@@ -172,6 +196,7 @@ body {
   max-height: 10%;
   margin: 0 auto;
   margin-top: 25%;
+  margin-bottom: 25%;
 }
 
 
@@ -196,13 +221,14 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #333; /* Dark gray text color for contrast */
-  padding: 30px;
+  padding: 20px;
   text-align: left;
   width: 100%;
-  max-width: 700px;
+  max-width: 550px;
   border-radius: 15px; /* Rounded corners for a softer look */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light box-shadow for depth */
   text-shadow: 0.1px 0.1px 0.1px #000;
+  margin-left: 25px;
 }
 
 
@@ -215,7 +241,8 @@ body {
   padding: 30px;
   text-align: left;
   width: 100%;
-  max-width: 630px;
+  max-width: 500px;
+  margin: 0 auto;
   border-radius: 15px; /* Rounded corners for a softer look */
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Light box-shadow for depth */
   text-shadow: 0.1px 0.1px 0.1px #000;
@@ -223,9 +250,10 @@ body {
 
 
 .floating-bt {
-  position: fixed; /* 고정 위치 */
-  bottom: 20px; /* 화면 하단에서 10픽셀 떨어진 위치 */
-  left: 20px; /* 화면 오른쪽에서 10픽셀 떨어진 위치 */
+position: sticky;
+bottom: 30px;
+left: 30px;
+margin-top: 30px;
  
 }
 

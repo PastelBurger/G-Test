@@ -4,13 +4,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>replit</title>
+  <title>특허법인 에스제이파트너스</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 
-  <div class="question-container" id="question0">    
-    <button class="answer-btn flashy-cool" data-result="1">잘 찾아 오셨어요. 지식재산 관련된 정부 사업을 소개 시켜 드릴께요!!</button>       
+
+  <div class="question-container" id="question0">  
+    <p class="flashy-cool">잘 찾아 오셨어요. 특허/상표/디자인 정부 사업을 소개 시켜 드릴께요!!</p>
+    <button class="answer-btn flashy-cools" data-result="1">START!!</button>       
   </div>
   
 <!-- 일단 숨김  
@@ -18,21 +20,7 @@
     <button class="answer-btn flashy-cool" data-result="s1">특허법인 에스제이파트너스의 변리사가 궁금하시다구요??</button>       
   </div>    -->
 
-  <div class="question-container hidden" id="questions1">       
-    <button class="flashy-cool2" onclick="openLink('http://www.sjpip.co.kr/bbs/board.php?bo_table=partners&wr_id=4')">김범준 변리사</button>
-    <button class="flashy-cool2" onclick="openLink('http://www.sjpip.co.kr/bbs/board.php?bo_table=partners&wr_id=13')">송민정 변리사</button>
-    <button class="flashy-cool2" onclick="openLink('http://www.sjpip.co.kr/bbs/board.php?bo_table=partners&wr_id=14')">이창민 변리사</button>
-    <button class="flashy-cool2" onclick="openLink('http://www.sjpip.co.kr/bbs/board.php?bo_table=partners&wr_id=15')">한상은 변리사</button>
-    <button class="flashy-cool2" onclick="openLink('http://www.sjpip.co.kr/bbs/board.php?bo_table=partners&wr_id=16')">이동필 변리사</button>
-    <button class="flashy-cool3" onclick="openLink('http://sjpip.co.kr/')">SJP 홈페이지</button>
-    <button class="flashy-cool3" onclick="openLink('https://blog.naver.com/sjpblog')">공식블로그</button>
-    <button class="flashy-cool3" onclick="openLink('https://blog.naver.com/lcm-ip')">이창민 변리사 블로그</button>
-    <button class="flashy-cool3" onclick="openLink('https://blog.naver.com/hanbyuln1')">한상은 변리사 블로그</button>
-
-    
-     <button class="answer-btn flashy-cool" data-result="0">처음으로 돌아갈래요</button> 
-  </div>
-
+ 
  
  <!-- 첫번째 분기점  --> 
 <div class="question-container hidden" id="question1">    
@@ -41,17 +29,122 @@
     <button class="answer-btn flashy-cool2" data-result="T1">B. 상표 지원 사업에 관심이 있어요.</button>  
   <button class="answer-btn flashy-cool3" data-result="s1">특허법인 에스제이파트너스의 변리사가 궁금해요.</button>
   <button class="answer-btn flashy-cool3" data-result="A1">특허 출원에 대해서 궁금해요.</button>
+  <button class="answer-btn flashy-cool3" data-result="C1" >저작권 분쟁이 궁금해요.</button>
+  <button class="answer-btn flashy-cool3" data-result="D1" >특허/상표 분쟁이 궁금해요.</button>
+  <button class="answer-btn flashy-cool3" data-result="E1" >지식재산권에 대한 여러가지 생각이 궁금해요.</button>
+  <button class="answer-btn flashy-cool3" data-result="F1" >스타트업의 특허 로드맵이 궁금해요.</button>
+  
+  </div>
+
+  <!-- 지식재산권에 대한 여러가지 생각이 궁금해요. E1  -->
+  <div class="question-container hidden" id="questionE1">    
+    <p class="flashy-cool" >지식재산권에 대한 여러가지 칼럼글 입니다.</p>
+    
+    <button class="flashy-cool2" data-result="D1" onclick="openLink('https://blog.naver.com/lcm-ip/223043525144')">가배도. 가품. 그리고 오픈마켓의 책임.</button>
+
+    <button class="flashy-cool2" data-result="D1" onclick="openLink('https://blog.naver.com/lcm-ip/223046664647')">심사시즌. 가벼운 후기.</button>
+    
+    <button class="flashy-cool2" data-result="D1" onclick="openLink('https://blog.naver.com/lcm-ip/223025015639')">ChatGPT에 대한 단상 </button>
+    
+    <button  class="flashy-cool2" data-result="D1" onclick="openLink('https://blog.naver.com/lcm-ip/223022249541')">돌보고 키워야 하는 상표</button>
+    
+    <button  class="flashy-cool2" data-result="D1" onclick="openLink('https://blog.naver.com/lcm-ip/223011505219')">"버킨백 NFT는 예술 아닌 상품"</button>
+    
+    <button  class="flashy-cool2" data-result="D1" onclick="openLink('https://blog.naver.com/lcm-ip/223006662065')">애플워치의 수난</button>
+    
+    <button  class="flashy-cool2" data-result="D1" onclick="openLink('https://blog.naver.com/lcm-ip/223003380003')">나이키와 룰루레몬의 분쟁. 나이키의 속내는?</button>
+
+    <button  class="flashy-cool2" data-result="D1" onclick="openLink('https://blog.naver.com/lcm-ip/223001779900')">니치마케팅을 알면 특허가 보인다.</button>
+
+    <button  class="flashy-cool2" data-result="D1" onclick="openLink('https://blog.naver.com/lcm-ip/223001572039')">前 직원 직무발명 평가 절하하더니…특허등록료 꼬박꼬박 납부한 네이버</button>
+
+    <button  class="flashy-cool2" data-result="D1" onclick="openLink('https://blog.naver.com/lcm-ip/223000695024')">에르메스 버킨백 NFT, 상표권 분쟁 격화…제품도용 VS 예술 논란</button>
+
+    <button  class="flashy-cool2" data-result="D1" onclick="openLink('https://blog.naver.com/lcm-ip/222998890750')">美수리업체 제소한 삼성디스플레이…'수리할 권리' 영향은?</button>
+
+     <button  class="flashy-cool2" data-result="D1" onclick="openLink('https://blog.naver.com/lcm-ip/222995122170')">"DB 유사한 상표 못쓴다" …법원 "소비자 오해 우려" DB그룹 승소 판결</button>
+
+    <button  class="flashy-cool2" data-result="D1" onclick="openLink('https://blog.naver.com/lcm-ip/222993718382')">“짝퉁 판매한 아마존도 책임 있다” 유럽서 날아온 판결에 고민 깊어진 오픈마켓</button>
+    
+  <button class="answer-btn flashy-coolpre" data-result="1">이전으로 돌아갈래요</button>
+    </div>
+
+  
+  <!-- 저작권 분쟁이 궁금해요 D1  -->
+  <div class="question-container hidden" id="questionD1">    
+    <p class="flashy-cool" >특허/상표 분쟁에 대한 칼럼글 입니다.</p>
+    
+    <button class="flashy-cool2" data-result="D1" onclick="openLink('https://blog.naver.com/hanbyuln1/222998043148')">특허소송 이렇게 이겼어요 #1</button>
+
+    <button class="flashy-cool2" data-result="D1" onclick="openLink('https://blog.naver.com/hanbyuln1/223064284950')">특허침해가 의심될 때 7가지 대응 전략</button>
+    
+    <button class="flashy-cool2" data-result="D1" onclick="openLink('https://blog.naver.com/hanbyuln1/223000525894')">상표권 침해 | 상표권을 등록하면 상표권 침해를 막을 수 있다고요?</button>
+    
+    <button  class="flashy-cool2" data-result="D1" onclick="openLink('https://blog.naver.com/hanbyuln1/223004125795')">상표침해 경고장·소장(1) | 상표권내용 확인, 침해 사유 확인</button>
+    
+    <button  class="flashy-cool2" data-result="D1" onclick="openLink('https://blog.naver.com/hanbyuln1/223004219193')">상표침해 경고장·소장(2) | 침해가 아닌 사유 확인</button>
+    
+    <button  class="flashy-cool2" data-result="D1" onclick="openLink('https://blog.naver.com/hanbyuln1/223004805432')">상표침해 경고장·소장(3) | 후속 절차(경고장 회신·무효·취소·권리범위 확인)</button>
+    
+    <button  class="flashy-cool2" data-result="D1" onclick="openLink('https://blog.naver.com/hanbyuln1/223004271898')">상표침해 경고장·소장(4) | 변리사 상담하기 - 네이버 엑스퍼트</button>
+
+    <button  class="flashy-cool2" data-result="D1" onclick="openLink('https://blog.naver.com/hanbyuln1/223054288030')">지식재산권 분쟁 절차와 대응 방법은?(1)</button>
+
+    <button  class="flashy-cool2" data-result="D1" onclick="openLink('https://blog.naver.com/hanbyuln1/223054503357')">지식재산권 분쟁 절차와 대응 방법은?(2)</button>
+    
+  <button class="answer-btn flashy-coolpre" data-result="1">이전으로 돌아갈래요</button>
+    </div>
+
+  
+  <!-- 저작권 분쟁이 궁금해요 C1  -->
+  <div class="question-container hidden" id="questionC1">    
+    <p class="flashy-cool" >저작권 분쟁에 대한 칼럼글 입니다.</p>
+    <button class="answer-btn flashy-cool2" data-result="C1" onclick="openLink('https://blog.naver.com/hanbyuln1/223013891510')">A. 저작권 분쟁 A to Z  |  커버 곡(리메이크), 저작권 침해 알아보기</button>
+    <button class="answer-btn flashy-cool2" data-result="C1" onclick="openLink('https://blog.naver.com/hanbyuln1/223010290313')">B. 저작권 분쟁 A to Z | 저작권 침해 기준, 처벌은?</button>
+    <button  class="answer-btn flashy-cool2" data-result="C1" onclick="openLink('https://blog.naver.com/hanbyuln1/223014108571')">C. 저작권 분쟁 A to Z  |  스트리밍 음원, 카페·헬스장·가게에서 그냥 틀어도 될까? 공연보상금은?</button>
+    <button  class="answer-btn flashy-cool2" data-result="C1" onclick="openLink('https://blog.naver.com/hanbyuln1/223022744665')">D. 저작권 분쟁 A to Z  |  스톡 사진, 이미지와 저작권 침해 </button>
+    <button  class="answer-btn flashy-cool2" data-result="C1" onclick="openLink('https://blog.naver.com/hanbyuln1/223036261928')">E. 저작권 분쟁 A to Z  |  폰트(글꼴) 사용, 어떤 경우에 저작권 침해일까?</button>
+  <button class="answer-btn flashy-coolpre" data-result="1">이전으로 돌아갈래요</button>
+    </div>
+  
+
+
+  
+  <!-- 특허법인 에스제이파트너스의 변리사에에 대해서 궁금해요  -->
+  
+ <div class="question-container hidden" id="questions1">       
+    <button class="flashy-cool2" data-result="s1" onclick="openLink('http://www.sjpip.co.kr/bbs/board.php?bo_table=partners&wr_id=4')">김범준 변리사</button>
+    <button class="flashy-cool2" data-result="s1" onclick="openLink('http://www.sjpip.co.kr/bbs/board.php?bo_table=partners&wr_id=13')">송민정 변리사</button>
+    <button class="flashy-cool2" data-result="s1" onclick="openLink('http://www.sjpip.co.kr/bbs/board.php?bo_table=partners&wr_id=14')">이창민 변리사</button>
+    <button class="flashy-cool2" data-result="s1" onclick="openLink('https://blog.naver.com/hanbyuln1/222997302588')">한상은 변리사</button>
+    <button class="flashy-cool2" data-result="s1" onclick="openLink('http://www.sjpip.co.kr/bbs/board.php?bo_table=partners&wr_id=16')">이동필 변리사</button>
+    <button class="flashy-cool3" data-result="s1" onclick="openLink('http://sjpip.co.kr/')">SJP 홈페이지</button>
+    <button class="flashy-cool3" data-result="s1" onclick="openLink('https://blog.naver.com/sjpblog')">공식블로그</button>
+    <button class="flashy-cool3" data-result="s1" onclick="openLink('https://blog.naver.com/lcm-ip')">이창민 블로그</button>
+    <button class="flashy-cool3" data-result="s1" onclick="openLink('https://blog.naver.com/hanbyuln1')">한상은 블로그</button>
+     <button class="answer-btn flashy-coolpre" data-result="1">이전으로 돌아갈래요</button> 
   </div>
 
   <!-- 특허출원에 대해서 궁금해요  -->
 <div class="question-container hidden" id="questionA1">    
-    <p class="flashy-cool" >특허 출원을 위해 알면 좋은 칼럼글 입니다.</p>
-    <button class="flashy-cool2" onclick="openLink('https://blog.naver.com/lcm-ip/223040041901')">A. 문제의 인식. 그리고 문제의 해결</button>
-    <button class="flashy-cool2" onclick="openLink('https://blog.naver.com/lcm-ip/223029021819')">B. 특허와 뛰어난 기술의 관계?</button>
-    <button class="flashy-cool2" onclick="openLink('https://blog.naver.com/lcm-ip/223009390442')">C. 가치있는 특허를 만들어 보자.</button>
-    <button class="flashy-cool2" onclick="openLink('https://blog.naver.com/lcm-ip/223008049539')">D. 코웨이 vs 청호나이스. 얼음정수기에 대한 오랜 다툼. 결과는?</button>
-    <button class="flashy-cool2" onclick="openLink('https://blog.naver.com/lcm-ip/223007066345')">E. 스타트업은 특허를 내야 하나요?</button>
-    <button class="flashy-cool2" onclick="openLink('https://blog.naver.com/lcm-ip/222998535476')">F. 단편소설. 변리사 추천</button>
+    <p class="flashy-cool" >특허 출원에 대한 칼럼글 입니다.</p>
+    <button class="flashy-cool2" onclick="openLink('https://blog.naver.com/lcm-ip/223040041901')">문제의 인식. 그리고 문제의 해결</button>
+    <button class="flashy-cool2" onclick="openLink('https://blog.naver.com/lcm-ip/223029021819')">특허와 뛰어난 기술의 관계?</button>
+    <button class="flashy-cool2" onclick="openLink('https://blog.naver.com/lcm-ip/223009390442')">가치있는 특허를 만들어 보자.</button>
+    <button class="flashy-cool2" onclick="openLink('https://blog.naver.com/lcm-ip/223008049539')">코웨이 vs 청호나이스. 얼음정수기에 대한 오랜 다툼. 결과는?</button>
+    <button class="flashy-cool2" onclick="openLink('https://blog.naver.com/lcm-ip/223007066345')">스타트업은 특허를 내야 하나요?</button>
+    <button class="flashy-cool2" onclick="openLink('https://blog.naver.com/lcm-ip/222998535476')">단편소설. 변리사 추천</button>
+
+  <button class="flashy-cool2" onclick="openLink('https://blog.naver.com/sjpblog/222581777019')">특허는 기존 기술과 다른 것</button>
+
+  <button class="flashy-cool2" onclick="openLink('https://blog.naver.com/sjpblog/222581790385')">특허는 기술 공개를 대가로 권리를 주는 것 </button>
+
+  <button class="flashy-cool2" onclick="openLink('https://blog.naver.com/sjpblog/222581795691')">빠른 출원의 중요성</button>
+
+  <button class="flashy-cool2" onclick="openLink('https://blog.naver.com/sjpblog/222589745946')">기술발전과 아아디어. 그리고 특허.</button>  
+
+  
+  <button class="answer-btn flashy-coolpre" data-result="1">이전으로 돌아갈래요</button>
   
 
 </div>
@@ -64,7 +157,8 @@
     <p class="flashy-cool" >특허 사업 관련해서, 어떤 니즈가 있으세요?</p>
     <button class="answer-btn flashy-cool2" data-result="P11">A. 특허 출원 비용을 지원받고 싶어요</button>
     <button class="answer-btn flashy-cool2" data-result="P12">B. IR 을 대비해서, 경쟁사의 특허를 조사하였고, 특허 리스크가 없다는 백데이터(Back Data)를 만드는 사업이 필요해요</button>
-    <button class="answer-btn flashy-cool2" data-result="P13">C. 수출 중이거나 수출 예정인 기업에게 특화된 조사 사업이 필요해요</button>    
+    <button class="answer-btn flashy-cool2" data-result="P13">C. 수출 중이거나 수출 예정인 기업에게 특화된 조사 사업이 필요해요</button>
+  <button class="answer-btn flashy-coolpre" data-result="1">이전으로 돌아갈래요</button>
   </div>
 
 <!-- 특허결과 A. 특허 출원 비용을 지원받고 싶어요-->
@@ -82,10 +176,10 @@
   </div>
   <!-- 3 -->
   <div class="disc">
-  <button class="flashy-cool4" onclick="openLink('https://www.notion.so/sjpip/c41e1d5287ee4e92a915bc2efeb5a317?pvs=4')">해외 출원비용 지원 사업</button>
+  <button class="flashy-cool4" onclick="openLink('https://sjpip.notion.site/c41e1d5287ee4e92a915bc2efeb5a317')">해외 출원비용 지원 사업</button>
   <div class="disc_inner" >해외 출원비용 지원 사업은 해외 권리화에 대한 비용을 지원하는 사업입니다. 서울 지식 재산 센터에서 진행하며, 1년에 두번(상반기, 하반기) 사업을 진행합니다. </div> 
   </div>
-
+  <button class="answer-btn flashy-coolpre" data-result="P1">이전으로 돌아갈래요</button>
 
 
   
@@ -109,6 +203,7 @@
    <button class="flashy-cool4" onclick="openLink('https://sjpip.notion.site/4413ff6b88e44e6d9a6612692da72ac3')">지식재산바우처 사업(Click)</button>
    <div class="disc_inner" >지식재산 바우처 사업은 매년 초(2~3월) 에 모집하는 사업입니다. 지식재산 바우처 사업에 선정되면, 선정된 해에 할당된 금액에 해당하는 특허 서비스를 받을 수 있습니다. 기업 부담금은 30%정도 됩니다. </div>
    </div>
+  <button class="answer-btn flashy-coolpre" data-result="P1">이전으로 돌아갈래요</button>
 </div>
 
 
@@ -121,6 +216,7 @@
   <button class="flashy-cool4" onclick="openLink('https://sjpip.notion.site/1b427bb9abf6422c9c09d16326d09df9')">특허분쟁 대응전략(Click)</button>
   <div class="disc_inner" >특허분쟁 대응전략은 해외 수출 중이거나, 해외 수출 예정이 있는 기업에게, 해외 특허 관련 서비스를 제공하는 사업입니다. 해외 기업들의 특허를 조사하고, 비침해/회피설계/무효화 전략을 구축할 수 있습니다. </div> 
   </div> 
+  <button class="answer-btn flashy-coolpre" data-result="P1">이전으로 돌아갈래요</button>
 </div>
   
   
@@ -130,7 +226,9 @@
 <div class="question-container hidden" id="questionT1">    
     <p class="flashy-cool">상표 관련된 어떤 니즈가 있으세요?</p>
     <button class="answer-btn flashy-cool2" data-result="T11">A. 상표 확보 자금을 지원받고 싶어요</button>
-    <button class="answer-btn flashy-cool2" data-result="T12">B. 상표 분쟁에 대한 자금을 지원 받고 싶어요.</button>    
+    <button class="answer-btn flashy-cool2" data-result="T12">B. 상표 분쟁에 대한 자금을 지원 받고 싶어요.</button>
+  <button class="answer-btn flashy-cool3" data-result="T1" onclick="openLink('https://blog.naver.com/lcm-ip/223038847994')">상표 셀프 출원 가이드 북을 무료로 얻고 싶어요</button>
+  <button class="answer-btn flashy-coolpre" data-result="1">이전으로 돌아갈래요</button>
   </div>
 
   
@@ -147,6 +245,7 @@
   <button class="flashy-cool4" onclick="openLink('https://www.notion.so/sjpip/K-325770bc596e49be8de8d1f5cb1b7898?pvs=4')">K-브랜드 분쟁 대응전략(Click)</button>
   <div class="disc_inner" >K-브랜드 대응전략의 해외 현지 권리화 트랙으로부터 해외 상표 확보를 위한 지원을 받을 수 있습니다. 100만원(또는 200만원)의 부담금으로 해외상표 2 ~ 3건을 확보할 수 있습니다.</div> 
   </div> 
+  <button class="answer-btn flashy-coolpre" data-result="T1">이전으로 돌아갈래요</button>
 
   
 </div>
@@ -154,9 +253,10 @@
 <div class="question-container hidden" id="questionT12">       
     
    <div class="disc">
-  <button class="flashy-cool4" onclick="openLink('https://www.notion.so/sjpip/K-325770bc596e49be8de8d1f5cb1b7898?pvs=4')">K-브랜드 분 대응전략(Click)</button>
+  <button class="flashy-cool4" onclick="openLink('https://www.notion.so/sjpip/K-325770bc596e49be8de8d1f5cb1b7898?pvs=4')">K-브랜드 분쟁 대응전략(Click)</button>
   <div class="disc_inner" >K-브랜드 대응전략의 (1)콘텐츠 IP보호 (2) 상표 무단선점 대응 (3) 위조/형태모방 대응 트랙으로 부터 해외 분쟁에 대한 지원을 받을 수 있습니다. 선행 상표에 의해서 거절되었거나, 해외에서 상표 관련 분쟁이 있다면, 지원 받을 수 있습니다.</div> 
-  </div>   
+  </div> 
+  <button class="answer-btn flashy-coolpre" data-result="T1">이전으로 돌아갈래요</button>
 
 </div>
   
@@ -171,9 +271,9 @@
   </div>
 
   <div class="floating-bt">
-  <button class="bt" onclick="openLink('https://forms.gle/4iLeneFhs82UD8L5A')">사이트에 의견내기
-  </button>
-  <button class="bt" onclick="openLink('https://forms.gle/3rkCbKvdxAyumPA36')">SJP특허에 문의하기</button>
+      <button class="bt" onclick="openLink('https://forms.gle/4iLeneFhs82UD8L5A')">사이트에 의견내기</button>
+    <button class="bt" onclick="openLink('https://forms.gle/3rkCbKvdxAyumPA36')">SJP특허에 문의하기</button>
+   
 </div>
   
   
