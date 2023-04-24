@@ -240,8 +240,7 @@ body {
   color: #333; /* Dark gray text color for contrast */
   padding: 30px;
   text-align: left;
-  width: 100%;
-  max-width: 500px;
+  width: 70%;  
   margin: 0 auto;
   border-radius: 15px; /* Rounded corners for a softer look */
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Light box-shadow for depth */
